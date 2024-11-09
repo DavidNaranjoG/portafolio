@@ -12,6 +12,16 @@
 </head>
 
 <body class="body">
+
+    <!-- Encabezado del portafolio  -->
+    <header class="header">
+        <h3 class="menu">Inicio</h3>
+        <h3 class="menu">Acerca de</h3>
+        <h3 class="menu">contacto</h3>
+    </header>
+
+
+    <!-- Cuerpo del portafolio  -->
     <div class="contenedor">
         <!-- seccion desdicada al perfil -->
         <section class="perfil">
@@ -22,9 +32,7 @@
                 </div>
                 <div class="col-sm-5">
                     <h1>David A. Naranjo G.</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis et voluptas
-                        voluptatum numquam ad ratione non corrupti officia modi vero.
-                        Rerum, vitae totam. Doloremque, rem obcaecati tempore numquam saepe temporibus.</p>
+                    <p>Ingeniero topográfico con experiencia en sistemas de información geográficos (GIS), diseño e implementación de bases de datos espaciales, generación de productos cartográficos, diseño y desarrollo de algoritmos para la gestión y análisis de datos espaciales.</p>
                     <card class="social">
                         <a href="https://www.linkedin.com/in/david-alexander-naranjo-gongora-066646246">
                             <img class="socialimg"
@@ -73,15 +81,13 @@
 
 
         <!-- Sección para buscar pokemon -->
-
         <div class="pokemon">
             <h1>Busca el pokemon</h1>
             <input type="text" id="pokemon-name" placeholder="Escribe el nombre del pokemon">
             <button class="btn btn-primary" onclick="fetchPokemon()" >Atrapalos YA!</button>
             <div  id="pokemon-info"></div>
-        </div>
-    
-        <script src="js/pokemon.js"></script>
+        </div>    
+        
 
         <!-- Sección destinada para el envio de email -->
         <section name="email" class="email">
@@ -117,6 +123,8 @@
 
     </div>
 
+    <!-- Scripts -->
+    <script src="js/pokemon.js"></script>
     <script src="js/skills.js"></script>
     <script src="js/proyectos.js"></script>
     <script src="js/mail.js"></script>

@@ -1,18 +1,18 @@
 const projects = [
     {
-        imgSrc: "ruta/de/la/imagen1.jpg",
-        title: "Título del Proyecto 1",
-        text: "Descripción breve del Proyecto 1.",
-        link: "#"
+        imgSrc: "https://cdn-icons-png.flaticon.com/512/1760/1760647.png",
+        title: "Practicas de clase",
+        text: "En enlace lleva al perfil de github donde se encuentras los repositrios que contienen los archivos trabajados en clase",
+        link: "https://github.com/DavidNaranjoG"
     },
     {
-        imgSrc: "ruta/de/la/imagen2.jpg",
-        title: "Título del Proyecto 2",
-        text: "Descripción breve del Proyecto 2.",
-        link: "#"
+        imgSrc: "https://cdn-icons-png.freepik.com/512/10061/10061836.png",
+        title: "Portafolio",
+        text: "Creación de portafolio como practica de lo aprendido en Html, css y javascript",
+        link: "https://davidnaranjog.github.io/portafolio/#"
     },
 
-    
+
     // Agrega más proyectos aquí
 ];
 
@@ -27,7 +27,7 @@ projects.forEach(project => {
 
     const img = document.createElement("img");
     img.src = project.imgSrc;
-    img.className = "card-img-top";
+    img.className = "imgprojects";
     img.alt = project.title;
 
     const cardBody = document.createElement("div");
@@ -45,6 +45,7 @@ projects.forEach(project => {
     link.href = project.link;
     link.className = "btn btn-primary";
     link.textContent = "Ver más";
+    link.target = "_blank"
 
     cardBody.appendChild(cardTitle);
     cardBody.appendChild(cardText);
