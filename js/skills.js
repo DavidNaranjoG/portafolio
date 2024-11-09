@@ -1,16 +1,16 @@
 // Clase donde se agregan las soft skills
 const softSkills = [
     {
-        imgSrc: "link/imagen.png",
-        text : "habilidad 1"        
+        imgSrc: "https://img.icons8.com/?size=100&id=OAs4QZ2x4zyX&format=png&color=000000",
+        text : "Trabajo en equipo"        
     },
     {
-        imgSrc: "link/imagen.png",
-        text : "habilidad 1"        
+        imgSrc: "https://img.icons8.com/?size=100&id=if1a9xStBA5I&format=png&color=000000",
+        text : "Mentalidad positiva"        
     },
     {
-        imgSrc: "link/imagen.png",
-        text : "habilidad 1"        
+        imgSrc: "https://cdn-icons-png.flaticon.com/512/13322/13322422.png",
+        text : "Comunicación asertiva"        
     },
 
 ];
@@ -39,16 +39,16 @@ softSkills.forEach(softSkill=>{
 // Clase donde se agregan las hard skills
 const hardSkills = [
     {
-        imgSrc: "link/imagen.png",
-        text : "habilidad 1"        
+        imgSrc: "https://img.icons8.com/?size=100&id=90519&format=png&color=000000",
+        text : "Springboot"        
     },
     {
-        imgSrc: "link/imagen.png",
-        text : "habilidad 1"        
+        imgSrc: "https://img.icons8.com/?size=100&id=13679&format=png&color=000000",
+        text : "Java"        
     },
     {
-        imgSrc: "link/imagen.png",
-        text : "habilidad 1"        
+        imgSrc: "https://img.icons8.com/?size=100&id=71257&format=png&color=000000",
+        text : "Angular"        
     },
 
 ];

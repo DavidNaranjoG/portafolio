@@ -28,7 +28,7 @@
                     <card class="social">
                         <a href="https://www.linkedin.com/in/david-alexander-naranjo-gongora-066646246">
                             <img class="socialimg"
-                                src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Icon-Black-Logo.wine.svg"
+                                src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"
                                 alt="linkedin">
                         </a>
                         <a href="https://github.com/DavidNaranjoG">
@@ -72,27 +72,39 @@
         </section>
 
 
+        <!-- Sección para buscar pokemon -->
+
+        <div class="pokemon">
+            <h1>Busca el pokemon</h1>
+            <input type="text" id="pokemon-name" placeholder="Escribe el nombre del pokemon">
+            <button class="btn btn-primary" onclick="fetchPokemon()" >Atrapalos YA!</button>
+            <div  id="pokemon-info"></div>
+        </div>
+    
+        <script src="js/pokemon.js"></script>
+
         <!-- Sección destinada para el envio de email -->
-        <section name="email">
+        <section name="email" class="email">
             <form id="form">
+                <h3>Ponte en contacto</h3><br>
                 <div class="field">
-                    <label for="from_name">from_name</label>
-                    <input type="text" name="from_name" id="from_name">
+                    <label for="from_name">De</label>
+                    <input type="text" name="from_name" id="from_name" class="caja">
                 </div>
                 <div class="field">
-                    <label for="to_name">to_name</label>
-                    <input type="text" name="to_name" id="to_name">
+                    <label for="to_name">Para</label>
+                    <input type="text" name="to_name" id="to_name" class="caja">
                 </div>
                 <div class="field">
-                    <label for="message">message</label>
-                    <input type="text" name="message" id="message">
+                    <label for="message">Mensaje</label>
+                    <input type="text" name="message" id="message" class="caja">
                 </div>
                 <div class="field">
-                    <label for="reply_to">reply_to</label>
-                    <input type="text" name="reply_to" id="reply_to">
+                    <label for="reply_to">Responder a</label>
+                    <input type="text" name="reply_to" id="reply_to" class="caja">
                 </div>
 
-                <input type="submit" id="button" value="Send Email" class="btn btn-primary">
+                <input type="submit" id="button" value="Enviar" class="btn btn-primary">
             </form>
 
             <script type="text/javascript"
