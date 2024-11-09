@@ -11,6 +11,8 @@ const projects = [
         text: "Descripción breve del Proyecto 2.",
         link: "#"
     },
+
+    
     // Agrega más proyectos aquí
 ];
 
