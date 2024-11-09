@@ -20,21 +20,62 @@
     </section>
 
     <section>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Another link</a>
+            <div class="col-sm-6">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
             </div>
           </div>
     </section>
-    
+    <section>
+        <form id="form">
+            <div class="field">
+              <label for="from_name">from_name</label>
+              <input type="text" name="from_name" id="from_name">
+            </div>
+            <div class="field">
+              <label for="to_name">to_name</label>
+              <input type="text" name="to_name" id="to_name">
+            </div>
+            <div class="field">
+              <label for="message">message</label>
+              <input type="text" name="message" id="message">
+            </div>
+            <div class="field">
+              <label for="reply_to">reply_to</label>
+              <input type="text" name="reply_to" id="reply_to">
+            </div>
+          
+            <input type="submit" id="button" value="Send Email" >
+          </form>
+          
+          <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+          
+          <script type="text/javascript">
+            emailjs.init('zO4mqVt2nEaLN0LH5')
+          </script>
+    </section>
 
 
-    <script src="js/portafolio.js"></script>
+    <script src="js/portafolio.js"></script> -->
+    <script src="js/mail.js"></script>
 </body>
 <footer>
     <section class="footer">
